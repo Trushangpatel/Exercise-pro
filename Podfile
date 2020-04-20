@@ -7,7 +7,8 @@ target 'Exercise' do
 
   # Pods for Exercise
 	pod 'SDWebImage', '~>4.0'
-
+  pod 'SwiftLint'
+  
   target 'ExerciseTests' do
     inherit! :search_paths
     # Pods for testing
